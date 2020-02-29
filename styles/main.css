@@ -34,6 +34,11 @@ body {
     margin-right: 30px;
 }
 
+.header .right h3:hover {
+    cursor: pointer;
+    color: green;
+}
+
 .header .small {
     color: rgb(9, 207, 221);
     
