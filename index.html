@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList</title>
+    <script
+      src="https://kit.fontawesome.com/ca898f2436.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="left">
+          <h3>Saturday, June 1</h3>
+          <p class="small">3 Active Thanks</p>
+        </div>
+
+        <div class="right">
+          <h3 id="listIncomplete">Incomplete Tasks</h3>
+          <h3 id="listComplete">Complete Tasks</h3>
+        </div>
+      </div>
+
+      <div class="form">
+        <input id="texto" type="text" placeholder="Enter a tasks" />
+        <input id="button" class="button" type="button" value="Add tasks" />
+      </div>
+
+      <div id="container" class="container-tareas"></div>
+      
+      <div id="complete" class="container-tareas"></div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

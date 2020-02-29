@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #3b3f48;
+    /* border: 5px solid blueviolet; */
+}
+
+.wrapper {
+    margin: 50px 50px;
+    /* background: green; */
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.header .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .right h3 {
+    margin-right: 30px;
+}
+
+.header .small {
+    color: rgb(9, 207, 221);
+    
+}
+
+.form {
+    margin-bottom: 30px;
+}
+
+.form input {
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+}
+
+.form .button {
+   padding: 7px 8px;
+    background: rgb(9, 207, 221);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    width: 80px;
+} 
+
+hr {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.container-tareas .tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-tareas .tarea .cont-tarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarea .cont-tarea .check {
+    margin-right: 20px;
+}
+
+.tarea .cont-tarea p {
+    color: #fff;
+}
+
+.container-tareas .check:hover,
+.container-tareas .delete:hover {
+  
+    color: #fff;
+}
